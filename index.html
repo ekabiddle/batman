@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- служебная инфа для браузера-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman 2021 </title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--контейнер содержащий контент на первом экране --> 
+  <div class="container">
+      <!--шапка сайта с лого, поиском и тд-->
+      <header class='header animated fadeInDown'>
+          <div class='logo'>MoviePulse</div>
+          <form action='' class='search'>
+            <input typa='search' class='input search-input' placeholder="Films, TV shows, actors">
+            <button class="header-button search-button">
+                <img src="img\search-icon.svg" alt='search-icon'>
+            </button>
+          </form>
+        <div class='user'>
+            <button class="header-button bookmark-button">
+                <img src="./img/bookmark.svg" alt="Bookmark">
+            </button>
+            <img src="./img/1.jpg" alt="Avatar" class="avatar">
+        </div>  
+    </header> 
+    <!-- / header -->
+
+	<!-- content -->
+    <main class="main">
+        <h1 class="title animated fadeInUp delay-1s">The Batman</h1>
+        <small class="title-en animated fadeInUp delay-2s">Director: Matt Reeves</small>
+        <div class="info animated fadeInUp delay-1s">
+            <div class="movie-info">
+                <span class="tag">Movie</span>
+                <span class="country">USA, 2021</span>
+                <a data-fancybox href="https://youtu.be/cElcLipGNIA" class="play info-button">Watch the trailer</a>
+            </div>
+            <a href="#" class="more info-button">More details</a>    
+        </div>
+        <!-- /.info -->
+
+        <div class="content animated fadeIn delay-1s">
+            <div class="short-info">
+                <img src="./img/cover.jpg" alt="poster" class="poster">
+                <button class="content-button short-info-button">I will watch</button>
+                <h3 class='actor-titles'>The Batman/Cast</h3>
+                <ul class="actors-list">
+                    <li class="actors-list-item"><Robert href="#">Robert Pattinson</a></a></li>
+                    <li class="actors-list-item"><a href="#">Zoë Kravitz</a></li>
+                    <li class="actors-list-item"><a href="#">Paul Dano</a></li>
+                    <li class="actors-list-item"><a href="#">Jeffrey Wrigkht</a></li>
+                    <li class="actors-list-item"><a href="#">John Turturro</a></li>
+                    <li class="actors-list-item"><a href="#">Peter Sarsgaard</a></li>
+                    <li class="actors-list-item"><a href="#">Jayme Lawson</a></li>
+                    <li class="actors-list-item"><a href="#">Andy Serkis</a></li>
+                    <li class="actors-list-item"><a href="#">Colin Farrell</a></li>
+                    <li class="actors-list-item"><a href="#">Charlie Carver</a></li>
+                </ul>
+            </div>
+            <!-- /.shert-info -->
+            
+            <div class="full-info">
+                <nav class="info-tabs">
+                    <a href="#about" class="info-tabs-item info-tabs-item-active">Description</a>
+                    <a href="#reviews" class="info-tabs-item">Reviews</a>
+                    <a href="#premieres" class="info-tabs-item">Premieres</a>
+                    <a href="#actors" class="info-tabs-item">Actors</a>
+                    <a href="#awards" class="info-tabs-item">Аwards</a>
+                    <a href="#facts" class="info-tabs-item">Facts</a>
+                    <a href="#sites" class="info-tabs-item">Sites</a>
+                    <a href="#" class="info-tabs-item">
+                        <img src="./img/bookmark-icon.svg" alt="add bookmark" class="add-bookmark">
+                    </a>
+                </nav>
+
+                <div class="full-content">
+                    <div class="tab-content visible" id='about'>
+                                 
+                        <p class='text'>
+                            The upcoming American superhero movie 
+                            based on the comics of the same name by DC Comics. 
+                            The picture will be released by Warner Bros. And will be a reload of all Batman movies.
+                        </p>
+
+                        <p class='text'>
+                            The film is the tenth film in the DC Expanded Universe. 
+                            The director and screenwriter of the film will be Matt Reeves, 
+                            and the main role will be played by Robert Pattinson.
+                        </p>
+                            
+                        <h4 class='text-title'>Development</h4>
+                        <p class="text">
+                            In October 2014, Warner Bros. Studio announced that a solo 
+                            film about Batman is under development, the role of which 
+                            will again be played by Ben Affleck. In July 2015, 
+                            it was reported that Affleck was in talks with the 
+                            studio over the production of the film and co-writing 
+                            the script with Jeff Jones.
+                        </p>
+                        <p class="text">
+                            After the release of Batman vs. 
+                            Superman: At the Dawn of Justice, WME head 
+                            Patrick Whitesel confirmed that Affleck had written a 
+                            script for a solo film about Batman and was currently 
+                            being watched by the studio and DC. In May 2016, Jeremy Irons 
+                            confirmed that he would appear in the movie about the Dark Knight.
+                        </p>
+                        <p class="text">
+                            At the Comic-Con in San Diego in July 2016, 
+                            it was officially confirmed that Affleck would become the 
+                            director of the film. In August 2016, a test material was 
+                            published on one of Affleck's pages on social networks, in 
+                            which the character of Detrook was shown. On September 8, 2016, 
+                            Jeff Jones confirmed that Joe Mangagnello will play the mercenary 
+                            Slade Wilson, who may become the main villain of the film.
+                        </p>
+                    </div>
+
+                    <div class="tab-content" id="actors">
+                        <p class="text">
+                            information will soon appear here
+                        </p>
+                    </div>
+
+                    <div class="tab-content" id="awards">
+                        <p class="text">
+                            information will soon appear here
+                        </p>
+                    </div>
+
+                    <div class="tab-content" id="facts">
+                        <p class="text">
+                            information will soon appear here
+                        </p>
+                    </div>
+
+                    <div class="tab-content" id="sites">
+                        <p class="text">
+                            information will soon appear here
+                        </p>
+                    </div>
+
+                    <div class="subscribe">
+                        <h3 class="subscribe-titel">Subscribe</h3>
+                        <form class="subscribe-form">
+                            <input type="text" class="input subscribe-input" placeholder="Your Email">
+                            <button class='content-button subscribe-button'>
+                                <img src="./img/check.svg" alt="check">
+                            </button>   
+                        </form>
+                        <!--тут бедет форма -->
+
+                        <a href="#" class="banner">
+                            <img src="./img/image 1.jpg" alt="banner" class="Banner">
+                        </a>
+                        <!--тут бедет реклама -->
+                    </div>
+                </div>
+         </div>
+            <!-- /.full-info -->
+
+        </div>
+        <!-- /.content|c -->    
+    </main>
+  </div>
+  <!-- container-->
+  <!--подключаем библbотеку Jquery-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!--подключаем Fancybox-->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!--подключаем свои скрипты -->
+  <script src="js/main.js"></script>
+</body>
+</html>
